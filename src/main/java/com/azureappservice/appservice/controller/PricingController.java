@@ -19,7 +19,7 @@ public class PricingController {
 	@GetMapping(value = "/azureappservice")
 
 	public ResponseEntity<?> getPricingForScreen1() {
-		ResponseEntity<String> response = new ResponseEntity<String>("checking app service", HttpStatus.ACCEPTED);
+		ResponseEntity<String> response = new ResponseEntity<String>("checking app service adding a commit", HttpStatus.ACCEPTED);
 
 		return response;
 
